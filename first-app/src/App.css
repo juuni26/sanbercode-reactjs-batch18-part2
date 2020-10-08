@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+.body {
+  font-size: 16px;
+  margin: 0;
+}
+button {
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+.container {
+  padding-top: 5vh;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+form {
+  width: 40rem;
+  border: 1px solid #002;
+  padding: 2%;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+form h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+.daftarItem {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 1rem;
+
+}
+.item {
+  display: flex;
+  flex-direction: column;
+}
+.namaPelanggan {
+  display: flex;
+  margin-bottom: 1rem;
+}
+.label-first {
+  margin-right: 2rem;
+  display: block;
+  width: 10rem;
+}
+
+@media only screen and (max-width: 800px) {
+  form {
+    width: 100%;
+  }
+}
