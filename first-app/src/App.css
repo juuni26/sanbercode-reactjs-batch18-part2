@@ -13,11 +13,12 @@ button {
 }
 .container {
   padding-top: 5vh;
-  height: 100vh;
+  min-height: 50vh;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
+
 form {
   width: 40rem;
   border: 1px solid #002;
@@ -50,8 +51,46 @@ form h2 {
   width: 10rem;
 }
 
+.table {
+  background-color: rgb(255, 255, 255);
+  width: 40rem;
+  border: 1px solid #002;
+  padding: 2%;
+  border-radius: 1rem;
+  display: flex;  
+  flex-direction: column;
+  text-align: center;
+}
+.ct {
+  padding: 2rem;
+  background-color: rgb(243, 241, 241);
+}
+.table h2 {
+  font-size: 2rem;
+margin-bottom: 1rem;
+}
+table {
+  background-color: #fff;
+  border: 1px solid black;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+.table td {
+  border: 1px solid white;
+  background-color: rgb(252, 122, 1);
+}
+.table thead {
+  background-color: rgb(202, 202, 202);
+}
+
+
+
 @media only screen and (max-width: 800px) {
   form {
+    width: 100%;
+  }
+  .table {
     width: 100%;
   }
 }
