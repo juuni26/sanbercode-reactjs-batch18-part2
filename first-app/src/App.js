@@ -3,6 +3,8 @@ import "./App.css";
 import Tugas9 from "./Tugas9/Tugas9";
 import Tugas10 from "./Tugas10/Tugas10";
 import Tugas11 from "./Tugas11/tugas11";
+import Tugas12 from "./Tugas12/Tugas12";
+
 
 class App extends React.Component {
   constructor(props) {
@@ -17,11 +19,13 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <Tugas9 />
+        {/* <Tugas9 />
         <Tugas10 />
         {this.state.renderChild ? (
           <Tugas11 unmountMe={this.handleChildUnmount} />
-        ) : null}
+        ) : null} */}
+
+        <Tugas12 />
       </div>
     );
   }

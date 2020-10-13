@@ -10,6 +10,14 @@ button {
     outline: none;
     cursor: pointer;
     border-radius: 1rem;
+    border: 0;
+    padding: .5rem .9rem;
+    background-color: #002;
+    color: wheat;
+}
+button:hover {
+  background-color:  wheat;
+    color: #002;
 }
 .container {
   padding-top: 5vh;
