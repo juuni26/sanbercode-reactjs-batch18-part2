@@ -5,6 +5,8 @@ import Tugas10 from "./Tugas10/Tugas10";
 import Tugas11 from "./Tugas11/tugas11";
 import Tugas12 from "./Tugas12/Tugas12";
 import Tugas13 from "./Tugas13/Tugas13";
+import Tugas14 from "./Tugas14/Tugas14";
+
 
 
 
@@ -27,7 +29,7 @@ class App extends React.Component {
           <Tugas11 unmountMe={this.handleChildUnmount} />
         ) : null} */}
 
-        <Tugas13 />
+        <Tugas14 />
       </div>
     );
   }
