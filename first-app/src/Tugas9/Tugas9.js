@@ -18,24 +18,24 @@ function Tugas9() {
             </label>
           </div>
           <div className="item">
-            <div>
+            <div className="ckp">
               <input type="checkbox" name="item" id="" value="Semangka" />
               <label htmlFor="semangka">Semangka</label>
             </div>
 
-            <div>
+            <div className="ckp">
               <input type="checkbox" name="item" id="" value="Jeruk" />
               <label htmlFor="Jeruk">Jeruk</label>
             </div>
-            <div>
+            <div className="ckp">
               <input type="checkbox" name="item" id="" value="Nanas" />
               <label htmlFor="Nanas">Nanas</label>
             </div>
-            <div>
+            <div className="ckp">
               <input type="checkbox" name="item" id="" value="Salak" />
               <label htmlFor="Salak">Salak</label>
             </div>
-            <div>
+            <div className="ckp">
               <input type="checkbox" name="item" id="" value="Anggur" />
               <label htmlFor="Anggur">Anggur</label>
             </div>

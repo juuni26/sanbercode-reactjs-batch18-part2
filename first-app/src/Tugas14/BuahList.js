@@ -3,6 +3,8 @@ import { BuahContext } from "./BuahContext";
 import axios from "axios";
 
 const BuahList = () => {
+
+  
   const {
     dataHargaBuah,
     setDataHargaBuah,
